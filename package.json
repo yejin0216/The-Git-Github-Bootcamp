@@ -1,0 +1,27 @@
+{
+  "name": "npm-deploy-sample-by-yejin",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "log-run": "bin/cli.js"
+  }, 
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yejin0216/npm-deploy-sample.git"
+  },
+  "keywords": ["sample"],
+  "files": ["cli"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yejin0216/npm-deploy-sample/issues"
+  },
+  "homepage": "https://github.com/yejin0216/npm-deploy-sample#readme",
+  "dependencies": {
+    "commander": "^8.3.0"
+  }
+}
